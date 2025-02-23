@@ -56,3 +56,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.news-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+}
+
+.news-images img {
+    width: 45%; /* Adjust width to fit side by side */
+    max-width: 300px; /* Limit the size */
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
